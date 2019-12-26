@@ -1,0 +1,28 @@
+{
+	"name": "greensum-server",
+	"version": "0.0.1",
+	"description": "Node server for GreenSum project.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saurabhmittal16/greensum-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/saurabhmittal16/greensum-server/issues"
+	},
+	"homepage": "https://github.com/saurabhmittal16/greensum-server#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"fastify": "^2.11.0",
+		"mongoose": "^5.8.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
