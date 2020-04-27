@@ -18,9 +18,12 @@
 	},
 	"homepage": "https://github.com/saurabhmittal16/greensum-server#readme",
 	"dependencies": {
+		"bcryptjs": "^2.4.3",
 		"cors": "^2.8.5",
-		"fastify": "^2.11.0",
-		"mongoose": "^5.8.3"
+		"dotenv": "^8.2.0",
+		"fastify": "^2.13.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.9.10"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.2"

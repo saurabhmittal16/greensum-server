@@ -9,10 +9,11 @@ Fastify
 MongoDB  
 JWT for Auth
 
-## Tools (optional) -
+## Tools-
 
-Postman  
-Robo3T
+- [Compass](https://docs.mongodb.com/compass/master/install/) - To view data saved to mongo database
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) - To run the `test.http` file and test the API
+
 
 ## Installation -
 
