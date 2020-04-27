@@ -17,7 +17,7 @@ JWT for Auth
 
 ## Installation -
 
-1. Install NodeJS v10.18.0, MongoDB v4.0.14
+1. Install [NodeJS v12](https://github.com/nodesource/distributions#installation-instructions),  [MongoDB v4.2](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 2. Clone the repository using git
 3. Run the mongod service  
    For Linux -
@@ -39,3 +39,7 @@ JWT for Auth
     ```
 
 6. Use postman to send a GET request to [localhost:8080](localhost:8080) to test the server
+
+## Notes-
+
+- Enable authentication in MongoDB using [this](https://medium.com/mongoaudit/how-to-enable-authentication-on-mongodb-b9e8a924efac) link and this [fix](https://stackoverflow.com/questions/23943651/mongodb-admin-user-not-authorized).
